@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BIODATA</title>
+  </head>
+  <body 
+    
+    id="bg-login"
+    style="
+      background-color: #ffffff;
+      background-image: url(https://i.pinimg.com/originals/fe/d6/f3/fed6f3e66e27c6dd0b1c3abeaaab46b2.png);
+      background-size: contain;
+      background-position: center;
+      display: flex;
+      height: 100vh;
+      justify-content: center;
+      align-items: center;
+      background-image:;
+    "
+  >
+    <div
+      class="box-login"
+      style="
+        padding: 0;
+        margin: 0;
+        width: 500px;
+        min-height: 200px;
+        border: 1px solid rgb(163, 163, 163);
+        background-color: rgb(148, 148, 148);
+        padding: 15px;
+        box-sizing: border-box;
+        border-radius: 20px;
+      "
+    >
+      <h2
+        style="
+          font-family: sans-serif;
+          text-align: center;
+          margin-bottom: 15px;
+          color: #000000;
+        "
+      >
+        Biodata Pembeli
+      </h2>
+      <form action="">
+        <!-- nama depan -->
+        <input
+          style="
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            box-sizing: border-box;
+          "
+          type="text"
+          name="first_name"
+          placeholder="First Name"
+        />
+<!-- nama belakang -->
+        <input
+          style="
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            box-sizing: border-box;
+          "
+          type="text"
+          name="last_name"
+          placeholder="Last Name"
+        />
+        <!-- email -->
+        <input
+          style="
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            box-sizing: border-box;
+          "
+          type="email"
+          name="email"
+          placeholder="Email"
+        />
+        <!-- married/single -->
+        <h4 style="margin-bottom: 5px; font-family: sans-serif; color: #000000">
+          Status
+        </h4>
+        <label for="single">Single</label>
+        <input
+          style="box-sizing: border-box"
+          type="radio"
+          id="single"
+          value="single"
+          name="status"
+          checked
+        />
+        <label for="married">Married</label>
+        <input
+          style="box-sizing: border-box; font-family: sans-serif"
+          type="radio"
+          id="married"
+          value="married"
+          name="status"
+        />
+        <!-- fav food -->
+        <h4 style="margin-bottom: 5px; font-family: sans-serif; color: #000000">
+          Favorit Food
+        </h4>
+        <label for="nasi_goreng">Nasi Goreng</label>
+        <input style="box-sizing: border-box; margin: auto" type="checkbox" />
+        <label for="mie_ayam">Mie Ayam</label>
+        <input style="box-sizing: border-box; margin: auto" type="checkbox" />
+        <label for="Ayam Bakar">Ayam Bakar</label>
+        <input style="box-sizing: border-box; margin: auto" type="checkbox" />
+        <!-- fav drink -->
+        <h4 style="margin-bottom: 5px; font-family: sans-serif; color: #000000">
+          Favorit Drink
+        </h4>
+        <label for="Teh_Hangat">Teh Hangat</label>
+        <input style="box-sizing: border-box; margin: auto" type="checkbox" />
+        <label for=" Ice teh">Ice Teh</label>
+        <input style="box-sizing: border-box; margin: auto" type="checkbox" />
+        <label for="Susu">Susu</label>
+        <input style="box-sizing: border-box; margin: auto" type="checkbox" />
+        <!-- umur -->
+        <h4 style="margin-bottom: 5px; font-family: sans-serif; color: #000000">
+          Age
+        </h4>
+        <input
+          style="box-sizing: border-box; margin: auto"
+          type="date"
+          value="Date"
+        />
+        <!-- jenis kelamin -->
+        <h4 style="margin-bottom: 5px; font-family: sans-serif; color: #000000">
+          Gender
+        </h4>
+        <label for="male">Male</label>
+        <input
+          style="box-sizing: border-box; margin: auto"
+          type="radio"
+          id="male"
+          value="male"
+          name="gender"
+          checked
+        />
+        <label for="female">Female</label>
+        <input
+          style="box-sizing: border-box; margin: auto"
+          type="radio"
+          id="female"
+          value="female"
+          name="gender"
+        />
+        <label for="other">Other</label>
+        <input
+          style="box-sizing: border-box; margin: auto"
+          type="radio"
+          name="gender"
+          id="other"
+          value="other"
+        />
+        <h4 style="margin-bottom: 5px; font-family: sans-serif; color: #000000">
+            Address
+          </h4>
+          <textarea id="address" name="address" rows="4" cols="57"></textarea>
+          
+        <br />
+        <br />
+        <!-- submit -->
+        <input
+          style="
+            padding: 8px 15px;
+            background-color: #14120d;
+            color: rgb(255, 255, 255);
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+          "
+          type="submit"
+          value="Submit"
+        />
+      </form>
+    </div>
+  </body>
+</html>
